@@ -7,7 +7,7 @@
 .container {
   background-image: url("img/header-shapes\ mobile.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   padding: 20px auto;
 }
 
@@ -132,8 +132,25 @@ ul {
   margin-right: 122px;
 }
 
-.see_project {
+.btn {
   margin-left: -170px;
+  background: none;
+  border: 2px solid #7f8cff;
+  color: #7f8cff;
+  font-size: 1.1em;
+  border-radius: 7px;
+  height: 50px;
+  width: 120px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #7f8cff;
+}
+
+.btn:active {
+  color: white;
+  background-color: #0e25fc;
 }
 
 .tonic_border {
@@ -152,18 +169,14 @@ ul {
   border-radius: 16px;
 }
 
-.vector {
-  margin-left: 170px;
-  width: 12px;
-  height: 6px;
-  margin-top: 22px;
+.main_body {
+  display: flex;
+  flex-direction: column;
 }
 
-.vector_frameworks {
-  margin-left: 155px;
-  width: 12px;
-  height: 6px;
-  margin-top: 22px;
+.resume {
+  margin-left: 0;
+  width: 160px;
 }
 
 .vector_skills {
@@ -171,6 +184,10 @@ ul {
   width: 12px;
   height: 6px;
   margin-top: 22px;
+}
+
+.fa-solid {
+  margin-right: 16px;
 }
 
 .lang_info {
@@ -183,7 +200,18 @@ ul {
 
 .lang_info_head {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.lang_info_head li {
+  margin: 0;
+  padding: 0;
+}
+
+.lang_arrow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
 }
 
 .prog_lang {
@@ -192,12 +220,20 @@ ul {
 }
 
 .languages {
-  margin-left: 20px;
   margin-top: 30px;
+  padding-right: 54px;
 }
 
 .sep {
   width: 300px;
   height: 1px;
   background: #dfe1e6;
+}
+
+.sep1 {
+  margin-bottom: 16px;
+}
+
+.all_projects {
+  display: grid;
 }
