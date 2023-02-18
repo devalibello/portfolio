@@ -1,0 +1,60 @@
+* {
+  font-family: poppins, sans-serif;
+  color: #172b4d;
+  list-style-type: none;
+}
+
+.container {
+  background-image: url("img/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px auto;
+}
+
+.notification {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 21px;
+}
+
+.header2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.5em;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.body2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+  margin-top: 30px;
+}
+
+.connect {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+}
+
+.icons {
+  margin-top: 10px;
+  display: flex;
+}
+
+.icons div {
+  padding: 5px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.icons li {
+  padding: 5px;
+}
