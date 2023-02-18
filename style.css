@@ -58,3 +58,146 @@ ul {
 .icons li {
   padding: 5px;
 }
+
+.tonic_pic {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+
+.tonic_name {
+  width: 295px;
+  height: 36px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding: 0 40px;
+  margin: 2px;
+}
+
+.info1 {
+  display: flex;
+}
+
+.info2 {
+  margin-top: 40px;
+  display: flex;
+}
+
+.canopy {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 16px;
+  padding-top: 6px;
+  color: #344563;
+}
+
+.counter1 {
+  padding-left: 15px;
+}
+
+.backend,
+.year {
+  font-style: normal;
+  padding-top: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 14px;
+}
+
+.year {
+  padding-right: 50px;
+}
+
+.counter2 {
+  padding-left: 14px;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0;
+  padding-right: 36px;
+}
+
+.programs {
+  display: grid;
+  grid-template-columns: 70px 60px 50px;
+  margin-right: 122px;
+}
+
+.see_project {
+  margin-left: -170px;
+}
+
+.tonic_border {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+  margin-top: 50px;
+  padding-top: 9px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.vector {
+  margin-left: 170px;
+  width: 12px;
+  height: 6px;
+  margin-top: 22px;
+}
+
+.vector_frameworks {
+  margin-left: 155px;
+  width: 12px;
+  height: 6px;
+  margin-top: 22px;
+}
+
+.vector_skills {
+  margin-left: 228px;
+  width: 12px;
+  height: 6px;
+  margin-top: 22px;
+}
+
+.lang_info {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  justify-content: space-between;
+}
+
+.lang_info_head {
+  display: flex;
+  flex-direction: row;
+}
+
+.prog_lang {
+  display: flex;
+  flex-direction: column;
+}
+
+.languages {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.sep {
+  width: 300px;
+  height: 1px;
+  background: #dfe1e6;
+}
