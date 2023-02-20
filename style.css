@@ -9,6 +9,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   padding: 20px auto;
+  margin: 0;
+  padding: 26px;
 }
 
 .notification {
