@@ -242,10 +242,10 @@ ul {
 
 .contact{
   background-image: url("./img/contactMe-bg.svg");
-  background-repeat: none;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 70%;
   width: 100%;
-  padding-top: 103px;
+  padding-top: 170px;
   padding-left: 24px;
   border-radius: 90px 0 0 0;
   background-color: #6070ff;
@@ -253,4 +253,23 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 200px;
+  background-position: 10;
 }
+
+.contact-me {
+  font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 52px;
+color: white;
+}
+
+.info-contact {
+  color: white;
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+}
+
