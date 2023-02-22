@@ -278,7 +278,8 @@ ul {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  padding: 0 9px;
+  padding: 0 20px;
+  margin-right: 45px;
   justify-content: center;
 }
 
