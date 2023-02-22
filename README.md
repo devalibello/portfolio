@@ -27,10 +27,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="img/microverse_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="img/global_minbar.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Setup and Mobile First project</b></h3>
+  <h3><b>Forms and Validation Collaborative project</b></h3>
 
 </div>
 
@@ -60,10 +60,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Setup and Mobile First project] <a name="about-project"></a>
+# 📖 [Forms and Validation Collaborative project] <a name="about-project"></a>
 
 
-**[Setup and Mobile First project]** This project is about building the first page of a portfolio using the Figma template. It grants students the opportunity to begin to build their portfolio in preparation for the job markrt.
+**[Forms and Validation Collaborative project]** This project is about building the first page of a portfolio using the Figma template. It grants students the opportunity to begin to build their portfolio in preparation for the job market. The project was conducted using peer programming in a collaborative structure.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -143,13 +143,18 @@ Example:
 
 <!-- AUTHOR -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Author 1**
 
 - GitHub: [@githubhandle](https://github.com/devalibello)
 - Twitter: [@twitterhandle](https://twitter.com/i_am_aalee)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-bello-imoukhuede/)
+
+👤 **Author 2**
+
+- GitHub: [@githubhandle](https://github.com/fredo509)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fredo-st-fleur-0b41a122a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,8 +162,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add details of previous projects executed]**
-- [ ] **[Add a form at the end of the portfolio]**
+- [ ] **[Use javascript to enable drop down menu]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,7 +188,7 @@ If you like this project, kindly share my github repo with your friends and foll
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my learning partners and my family for giving me the needed support.
+I would like to thank my coding partner Fredo and my family for giving me the needed support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
