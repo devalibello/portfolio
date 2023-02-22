@@ -277,7 +277,9 @@ ul {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  padding-right: 30px;
+  text-align: center;
+  padding: 0 9px;
+  justify-content: center;
 }
 
 .name {
@@ -286,7 +288,7 @@ ul {
   border-radius: 8px;
   padding: 15px;
   margin: 10px;
-  width: 90%;
+  width: 70%;
   margin-right: 50px;
   color: #172b4d;
   font-style: normal;
@@ -299,23 +301,29 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+.btn-sub {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 14%;
 }
 
 .get_in_touch {
-  margin-left: -170px;
+  /* margin-left: -200px; */
   background: white;
   border: 2px solid #7f8cff;
   font-size: 1.1em;
   border-radius: 7px;
   height: 50px;
-  width: 40%;
+  width:140px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #6070ff;
   padding: 10px 10px;
-  margin-right: 80px;
   margin-top: 5px;
   margin-bottom: 50px;
 }
