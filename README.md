@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="img/global_minbar.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Forms and Validation Collaborative project</b></h3>
+  <h3><b>Contact Form Project</b></h3>
 
 </div>
 
