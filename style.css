@@ -303,6 +303,7 @@ ul {
   align-items: center;
   width: 100%;
 }
+
 .btn-sub {
   width: 100%;
   display: flex;
@@ -317,7 +318,7 @@ ul {
   font-size: 1.1em;
   border-radius: 7px;
   height: 50px;
-  width:140px;
+  width: 140px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
