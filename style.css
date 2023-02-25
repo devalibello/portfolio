@@ -115,6 +115,11 @@ ul {
 
 .tonic_pic {
   width: 100%;
+  transition: 1s;
+}
+
+.tonic_pic:hover {
+  transform: scale(1.05, 1.05);
 }
 
 .tonic_name {
