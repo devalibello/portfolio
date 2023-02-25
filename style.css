@@ -675,3 +675,11 @@ ul {
     width: 90%;
   }
 }
+
+.html:hover,
+.css:hover,
+.javascript:hover {
+  transition-property: transform;
+  transition-duration: 1s;
+  transform: scale(1.2, 1.2);
+}
