@@ -9,42 +9,55 @@
 	<link rel="stylesheet" href="style.css">
 	<title>Portfolio</title>
 </head>
-
 <body>
 	<main class="container">
-		<div class="first-section">
-			<header class="notification">
-				<nav class="nav-class">
-					<ul class="mobile-view">
-						<li class="flex-logo" href="https://"><img class="logo" src="img/global_minbar.png"
-								alt="Logo"></a>
-						<li class="hamburger"><img src="img/Union.png" alt="menu">
-				</nav>
-				</ul>
-				<div class="view-b">
-					<ul class="desktop-view">
-						<li class="not1 not">Portfolio</li>
-						<li class="not2 not">About</li>
-						<li class="not3 not">Contact</li>
-					</ul>
-				</div>
-				</nav>
-			</header>
-			<section class="main_body">
-				<h1 class="header2">I'm Ali<br>Glad to see you!</h1>
-				<p class="body2">I’m a software developer! I can help you build a product , feature or website Look
-					through some of my work and experience! If you like what you see and have a project you need coded,
-					don’t hestiate to contact me.</p>
-				<p class="connect">LET'S CONNECT</p>
-				<ul class="icons">
-					<li class="twitter"><a href="https://"><img src="img/Icon - Twitter.png" alt="Twitter"></a></li>
-					<li class="linkedin"><a href="https://"><img src="img/Icon - Linkedin.png" alt="Linkedin"></a></li>
-					<li class="medium"><a href="https://"><img src="img/Icon - Medium.png" alt="Medium"></a></li>
-					<li class="github"><a href="https://"><img src="img/Icon -GitHub.png" alt="GitHub"></a></li>
-					<li class="angelist"><a href="https://"><img src="img/Icon - Angelist.png" alt="Angelist"></a></li>
-				</ul>
+		<div class="menu-background">
+			<div class="menu-close">
+				<i class="fa-solid fa-xmark fa-2x"></i>
+			</div>
+			<ul id="menu-items">
+				<li class="menu-portfolio">
+					<a class="side-menu" href="#portfolio-start">Portfolio</a>
+				</li>
+				<li class="menu-about">
+					<a class="side-menu" href="#about">About</a>
+				</li>
+				<li class="menu-contact">
+					<a class="side-menu" href="#contact">Contact</a>
+			    </li>
+			</ul>
 		</div>
-		<section class="all_projects">
+			<div class="first-section">
+				<header class="notification">
+					<nav class="nav-class">
+						<ul class="mobile-view">
+							<li class="flex-logo" href="https://"><img class="logo" src="img/global_minbar.png" alt="Logo"></a>
+							<li class="hamburger"><img id="menu" src="img/Union.png" alt="menu">
+						</ul>
+						<div class="view-b">
+							<ul class="desktop-view">
+								<li class="not1 not">Portfolio</li>
+								<li class="not2 not">About</li>
+								<li class="not3 not">Contact</li>
+							</ul>
+						</div>
+					</nav>
+				</header>
+				<section class="main_body">
+					<h1 class="header2">I'm Ali<br>Glad to see you!</h1>
+					<p class="body2">I’m a software developer! I can help you build a product , feature or website Look
+						through some of my work and experience! If you like what you see and have a project you need coded,
+						don’t hestiate to contact me.</p>
+					<p class="connect">LET'S CONNECT</p>
+					<ul class="icons">
+						<li class="twitter"><a href="https://"><img src="img/Icon - Twitter.png" alt="Twitter"></a></li>
+						<li class="linkedin"><a href="https://"><img src="img/Icon - Linkedin.png" alt="Linkedin"></a></li>
+						<li class="medium"><a href="https://"><img src="img/Icon - Medium.png" alt="Medium"></a></li>
+						<li class="github"><a href="https://"><img src="img/Icon -GitHub.png" alt="GitHub"></a></li>
+						<li class="angelist"><a href="https://"><img src="img/Icon - Angelist.png" alt="Angelist"></a></li>
+					</ul>
+			</div>
+		<section class="all_projects" id="portfolio-start">
 			<section class="tonic_border">
 				<section class="tonic_project">
 					<a href="https://"><img class="tonic_pic" src="img/tonic_pic.png" alt=""></a>
@@ -72,7 +85,6 @@
 			<section class="tonic_border1">
 				<section class="tonic_project">
 					<a href="https://"><img class="tonic_pic" src="img/port3.png" alt=""></a>
-					<!-- <li class="tonic_name"><h2 >Tonic</h2></li> -->
 				</section>
 				<section class="desk-side">
 					<h2 class="tonic tonic1">Multi-Post<br> Stories</h2>
@@ -97,7 +109,6 @@
 			<section class="tonic_border">
 				<section class="tonic_project">
 					<a href="https://"><img class="tonic_pic" src="img/port1.png" alt=""></a>
-					<!-- <li class="tonic_name"><h2 >Tonic</h2></li> -->
 				</section>
 				<section class="desk-side">
 					<h2 class="tonic">Tonic</h2>
@@ -122,7 +133,6 @@
 			<section class="tonic_border1">
 				<section class="tonic_project">
 					<a href="https://"><img class="tonic_pic" src="img/port2.png" alt=""></a>
-					<!-- <li class="tonic_name"><h2 >Tonic</h2></li> -->
 				</section>
 				<section class="desk-side">
 					<h2 class="tonic tonic1">Multi-Post<br> Stories</h2>
@@ -146,7 +156,7 @@
 
 			<section class="about-section">
 				<section class="end_body">
-					<h1 class="header3">About<br>Myself</h1>
+					<h1 class="header3" id="about">About<br>Myself</h1>
 					<p class="body3">I’m a software developer! I can help you build a product , feature or website
 						Look through some of my work and experience! If you like what you see and have a project you
 						need coded, don’t hestiate to contact me.</p>
@@ -192,7 +202,7 @@
 				</section>
 			</section>
 			<section class="contact">
-				<h2 class="contact-me">Contact me</h2>
+				<h2 class="contact-me" id="contact">Contact me</h2>
 				<p class="info-contact">If you have an application you are interested in developing, a feature that
 					you need built or a project that needs coding. I’d love to help with it </p>
 				<form action="https://formspree.io/f/mvonabpr" method="post" class="form-input">
@@ -206,7 +216,7 @@
 				</form>
 			</section>
 	</main>
-
+<script src="app.js"></script>
 </body>
 
 </html>

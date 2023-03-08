@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="img/global_minbar.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Contact Form Project</b></h3>
+  <h3><b>Responsive Design of a Portfolio Website</b></h3>
 
 </div>
 
@@ -67,12 +67,26 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with"></a>
 
--HTML
--CSS
+### Tech Stack <a name="tech-stack"></a>
+
+> This project was built using HTML, CSS and Javascript
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+    <li><a href="https://www.javascript.com/">Javascript</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
 - **[The project was built to display the first page of a prospective portfolio]**
+- **[The website was designed to be responsive. This ensures an optimal layout when viewed on mobile phones and desktops]**
+- **[The project has a slide menu for mobile phone users]**
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +94,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://devalibello.github.io/setup_and_mobile_first/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +113,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder. Use the command: git clone https://github.com/devalibello/Setup-and-Mobile-First.git
+Clone this repository to your desired folder. Use the command: git clone https://github.com/devalibello/devalibello.github.io.git
 
 
 ### Install
@@ -109,6 +123,8 @@ Install this project with:
 1.  Install WebHint: npm install --save-dev hint@7.x
 
 2.  Install StyleLint npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+
+3.  npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 
 ### Usage
 
@@ -126,6 +142,9 @@ npx stylelint "**/*.{css,scss}"
 
 - To fix CSS or SCSS linters error:
 npx stylelint "**/*.{css,scss}" --fix
+
+- To fix javascript linters error:
+npx eslint . --fix
 
 ### Deployment
 
@@ -162,7 +181,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Use javascript to enable drop down menu]**
+- [ ] **[Use javascript to toggle the languages section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
