@@ -37,22 +37,20 @@
   left: 87%;
 }
 
-.side-menu {
+/* .side-menu {
   color: white;
   font-style: normal;
   font-weight: 600;
   font-size: 200%;
   line-height: 44px;
-  padding-bottom: 4%;
   text-decoration: none;
-  z-index: 2;
-}
+} */
 
 #menu-items {
   display: flex;
   flex-direction: column;
   margin-left: 8%;
-  margin-top: 15%;
+  margin-top: 86px;
 }
 
 .menu-about,
