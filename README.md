@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="img/global_minbar.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Contact Form Project</b></h3>
+  <h3><b>Responsive Design of a Portfolio Website</b></h3>
 
 </div>
 
@@ -73,6 +73,8 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **[The project was built to display the first page of a prospective portfolio]**
+- **[The website was designed to be responsive. This ensures an optimal layout when viewed on mobile phones and desktops]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +82,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://devalibello.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

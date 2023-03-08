@@ -11,20 +11,64 @@
   width: 100%;
 }
 
+.menu-background {
+  position: absolute;
+  background: #6070ff;
+  top: 0;
+  left: -1000px;
+  height: 100%;
+  width: 97%;
+  transition: left 0.5s;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  mix-blend-mode: multiply;
+  z-index: 3;
+}
+
+.menu-background.active {
+  left: 1.5%;
+  transition: left 0.5s;
+}
+
+.fa-xmark {
+  position: absolute;
+  color: white;
+  top: 5%;
+  left: 87%;
+}
+
+.side-menu {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 200%;
+  line-height: 44px;
+  padding-bottom: 4%;
+  text-decoration: none;
+  z-index: 2;
+}
+
+#menu-items {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8%;
+  margin-top: 15%;
+}
+
+.menu-about,
+.menu-portfolio,
+.menu-contact {
+  padding-bottom: 4%;
+}
+
 .logo {
   width: 10%;
   padding: 0;
   margin: 0;
   padding-top: 2%;
   padding-left: 2%;
-  animation-name: logo-animate;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 2;
-}
-
-@keyframes logo-animate {
-  100% { transform: rotate(360deg); }
+  transition-property: transform;
+  transition-duration: 1s;
 }
 
 .view-b {
@@ -124,10 +168,6 @@ ul {
 .tonic_pic {
   width: 100%;
   transition: 1s;
-}
-
-.tonic_pic:hover {
-  transform: scale(1.05, 1.05);
 }
 
 .tonic_name {
@@ -529,6 +569,11 @@ ul {
     padding: 3%;
   }
 
+  .tonic_pic:hover,
+  .tonic_pic1:hover {
+    transform: scale(1.05, 1.05);
+  }
+
   .info1 {
     align-items: end;
   }
@@ -624,16 +669,12 @@ ul {
     display: flex;
   }
 
-  .nav-class {
-    width: 100%;
-  }
-
   .not {
     display: block;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 110%;
+    line-height: 50%;
     padding: 0 0;
     margin: 0 0;
     padding-top: 2%;
@@ -648,7 +689,7 @@ ul {
   }
 
   .logo {
-    width: 10%;
+    width: 13%;
   }
 
   .btn-sub {
@@ -682,12 +723,29 @@ ul {
   .sep {
     width: 90%;
   }
-}
 
-.html:hover,
-.css:hover,
-.javascript:hover {
-  transition-property: transform;
-  transition-duration: 1s;
-  transform: scale(1.2, 1.2);
+  .html,
+  .css,
+  .javascript {
+    transition-property: transform;
+    transition-duration: 1s;
+  }
+
+  .html:hover,
+  .css:hover,
+  .javascript:hover,
+  .logo:hover {
+    transform: scale(1.2, 1.2);
+  }
+
+  .nav-class {
+    display: flex;
+    align-items: center;
+    margin-left: 19%;
+    width: 100%;
+  }
+
+  .menu-background {
+    display: none;
+  }
 }
