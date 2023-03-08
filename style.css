@@ -37,14 +37,14 @@
   left: 87%;
 }
 
-/* .side-menu {
+.side-menu {
   color: white;
   font-style: normal;
   font-weight: 600;
   font-size: 200%;
   line-height: 44px;
   text-decoration: none;
-} */
+}
 
 #menu-items {
   display: flex;
