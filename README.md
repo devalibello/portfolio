@@ -67,7 +67,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Key Features <a name="key-features"></a>
+### Tech Stack <a name="tech-stack"></a>
+
+> This project was built using HTML, CSS and Javascript
 
 <details>
   <summary>Client</summary>
