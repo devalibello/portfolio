@@ -759,6 +759,8 @@ ul {
 
   .pop-background {
     padding: 0 1%;
+    height: 90vh;
+    overflow: scroll;
   }
 
   .flex-langs {
@@ -774,6 +776,7 @@ ul {
   top: 0;
   left: 0;
   backdrop-filter: blur(5px);
+
 }
 
 .pop-background {
@@ -781,7 +784,7 @@ ul {
   padding-top: 2%;
   padding-bottom: 7%;
   width: 85%;
-  height: 68%;
+  height: 100%;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -789,6 +792,9 @@ ul {
   padding-right: 2%;
   margin-bottom: 7%;
   mix-blend-mode: multiply;
+  height: 90vh;
+  overflow: scroll;
+
 }
 
 .div-project-name {
