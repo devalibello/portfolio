@@ -85,6 +85,7 @@ After you're finished please remove all the comments and instructions!
 - **[The project was built to display the first page of a prospective portfolio]**
 - **[The website was designed to be responsive. This ensures an optimal layout when viewed on mobile phones and desktops]**
 - **[The project has a slide menu for mobile phone users]**
+- **[The project has a pop up window to show the details of the individual projects]**
 
 
 
