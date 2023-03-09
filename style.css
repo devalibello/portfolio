@@ -30,7 +30,7 @@
   transition: left 0.5s;
 }
 
-.fa-xmark {
+.menu-close {
   position: absolute;
   color: white;
   top: 5%;
@@ -746,4 +746,132 @@ ul {
   .menu-background {
     display: none;
   }
+
+  .flex-container-desktop {
+    display: flex;
+    margin: 4% 0;
+  }
+
+  .flex-description {
+    width: 60%;
+    margin-right: 3%;
+  }
+
+  .pop-background {
+    padding: 0 1%;
+    height: 90vh;
+    overflow: scroll;
+  }
+
+  .flex-langs {
+    width: 40%;
+  }
+}
+
+.trans-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
+}
+
+.pop-background {
+  margin-top: 50px;
+  padding-top: 2%;
+  padding-bottom: 7%;
+  width: 85%;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 7%;
+  mix-blend-mode: multiply;
+  height: 90vh;
+  overflow: scroll;
+}
+
+.div-project-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-name {
+  margin-left: 0;
+}
+
+.project-langs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4%;
+}
+
+.div-project-langs {
+  display: none;
+}
+
+.lang {
+  margin-right: 3%;
+  padding: 1% 2%;
+  background: #ebebff;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.project-image,
+.project-description {
+  width: 100%;
+}
+
+.footer-line {
+  width: 100%;
+  border: 1px solid #ebecf0;
+  margin-bottom: 4%;
+}
+
+.footer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid #396df2;
+  background: #fff;
+  border-radius: 8px;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.footer-btns {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 7%;
+}
+
+.footer-btn-content {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #396df2;
+  margin: 8% 0;
+}
+
+.final-footer-line {
+  width: 30%;
+  border: 2px solid #000;
+  margin-bottom: 4%;
+  border-radius: 5px;
+}
+
+.pop-remove {
+  display: none;
 }
