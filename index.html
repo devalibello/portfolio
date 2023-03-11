@@ -8,6 +8,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<title>Portfolio</title>
+		<script src="app.js" defer></script>
+	<script src="pop-script.js" defer></script>
+	<script src="form-validation.js" defer></script>
+	<script src="local-storage.js" defer></script>
 </head>
 
 <body>
@@ -211,18 +215,16 @@
 				<h2 class="contact-me" id="contact">Contact me</h2>
 				<p class="info-contact">If you have an application you are interested in developing, a feature that
 					you need built or a project that needs coding. I’d love to help with it </p>
-				<form action="https://formspree.io/f/mvonabpr" method="post" class="form-input">
-					<input class="name" type="text" id="" maxlength="30" placeholder="Enter your name" required>
-					<input class="name" type="email" id="" placeholder="Enter your email" required>
-					<textarea class="name" name="" id="" cols="30" rows="10" maxlength="500"
-						placeholder="Write your message here" required></textarea>
-					<div class="btn-sub">
-						<input type="submit" value="Get in touch" name="user_name" class="get_in_touch">
-					</div>
+				<form action="https://formspree.io/f/mvonabpr" method="post" class="form-input" id="form">
+					<input type="text" class="name storage" id="name" placeholder="Enter your name here..." maxlength="30" name="username" required /></label>
+					<input type="email" class=" name email-input storage" id="emailid" placeholder="Enter your email here..." name="email" required /></label>
+					<textarea class="name text-area storage" id="message" placeholder="Write your message here..." maxlength="500" cols="30"
+						rows="10" name="message" required></textarea>
+					</label>
+					<button class="get_in_touch" type="submit">Get in touch</button>
+					<p class="validation-message d-none"></p>
 				</form>
 			</section>
-
-
 			<section class="trans-back pop-remove">			
 					<div class="pop-background">
 						<div class="div-project-name">
@@ -295,8 +297,6 @@
 					</div>
 			</section>
 	</main>
-	<script src="app.js" defer></script>
-	<script src="pop-script.js" defer></script>
 </body>
 </html>
 
