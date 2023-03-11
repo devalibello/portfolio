@@ -86,6 +86,8 @@ After you're finished please remove all the comments and instructions!
 - **[The website was designed to be responsive. This ensures an optimal layout when viewed on mobile phones and desktops]**
 - **[The project has a slide menu for mobile phone users]**
 - **[The project has a pop up window to show the details of the individual projects]**
+- **[Form validation feature form the contact from to ensure correct data is sent to the server]**
+
 
 
 
@@ -165,16 +167,20 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author 1**
+👤 **Ali Bello Imoukhuede**
 
 - GitHub: [@githubhandle](https://github.com/devalibello)
 - Twitter: [@twitterhandle](https://twitter.com/i_am_aalee)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-bello-imoukhuede/)
 
-👤 **Author 2**
-
+👤 **Fredo st Fleur**
 - GitHub: [@githubhandle](https://github.com/fredo509)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/fredo-st-fleur-0b41a122a)
+
+👤 **Dani Morillo**
+- GitHub: [@danifromecuador](https://github.com/danifromecuador)
+- Twitter: [@danifromecuador](https://twitter.com/danifromecuador)
+- LinkedIn: [danifromecuador](https://www.linkedin.com/in/danifromecuador/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
