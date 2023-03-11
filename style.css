@@ -875,3 +875,12 @@ ul {
 .pop-remove {
   display: none;
 }
+
+.invalid-note {
+  color: white;
+  font-size: 2vh;
+}
+
+.show-note {
+  display: none;
+}
