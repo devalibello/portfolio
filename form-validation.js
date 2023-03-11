@@ -1,38 +1,21 @@
-const myForm = document.querySelector('#form-first');
-const emailInput = myForm.querySelector('.email-input');
-const emailValue = emailInput.value
-const invalidMessage = myForm.querySelector('.invalid-note')
+const form = document.getElementById('form');
+const validationMessage = document.querySelector('.validation-message');
+const { email } = form.elements;
+
+const errorMessage = 'Please, kindly use lowercase letters for the email address';
 
 const showMessage = (isError, message) => {
-    validationMessage.classList.remove('d-none');
-    validationMessage.textContent = message;
-  };
+  validationMessage.classList.remove('d-none');
+  validationMessage.textContent = message;
+};
 
-myForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    if (emailValue === emailValue.toLowerCase()) {
-      showMessage(false, 'Complete!');
-      form.submit();
-      return;
-    }
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  if (email.value === email.value.toLowerCase()) {
+    showMessage(false, 'Complete!');
+    form.submit();
+    return;
+  }
 
-
-
-
-
-
-// myForm.addEventListener('submit', (e) => {
-//     e.preventDefault();
-//     console.log(myForm)
-
-//     if (emailValue === emailValue.toLowerCase()) {
-//     //     invalidMessage.classList.add('show-note');
-//         myForm.submit();
-//         return true;
-//     }
-//     else {
-//         // e.preventDefault();
-//         invalidMessage.classList.remove('show-note');
-//         return false;
-//     }
-// })
+  showMessage(true, errorMessage);
+});
