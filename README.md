@@ -87,7 +87,7 @@ After you're finished please remove all the comments and instructions!
 - **[The project has a slide menu for mobile phone users]**
 - **[The project has a pop up window to show the details of the individual projects]**
 - **[Form validation feature form the contact from to ensure correct data is sent to the server]**
-- **[Local storage added to the contact form]**
+- **[Local storage added to the contact form to enhance user experience]**
 
 
 
