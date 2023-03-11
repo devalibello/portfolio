@@ -171,10 +171,17 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/i_am_aalee)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-bello-imoukhuede/)
 
-👤 **Author 2**
+Collaborators:  
 
+👤 **Otto**
 - GitHub: [@githubhandle](https://github.com/fredo509)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/fredo-st-fleur-0b41a122a)
+
+👤 **Dani Morillo**
+
+- GitHub: [@danifromecuador](https://github.com/danifromecuador)
+- Twitter: [@danifromecuador](https://twitter.com/danifromecuador)
+- LinkedIn: [danifromecuador](https://www.linkedin.com/in/danifromecuador/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
