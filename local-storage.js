@@ -1,18 +1,17 @@
 const formElements = document.querySelectorAll('.storage');
-
 const stringValues = localStorage.getItem('data');
-const parseValues  = JSON.parse(stringValues);
+const parseValues = JSON.parse(stringValues);
 
-formElements[0].value = parseValues[0];
-formElements[1].value = parseValues[1];
-formElements[2].value = parseValues[2];
+[formElements[0].value, formElements[1].value, formElements[2].value] = parseValues;
 
-for (i=0; i < formElements.length; i += 1 ){
-    formElements[i].addEventListener('keyup', () => {
-        values = [formElements[0].value,formElements[1].value,formElements[2].value];
-        const stringifyValues = JSON.stringify(values);
-        localStorage.setItem('data', stringifyValues);
-        const stringValues = localStorage.getItem('data');         
-    })
-
+for (let i = 0; i < formElements.length; i += 1) {
+  formElements[i].addEventListener('keyup', () => {
+    const nameValue = formElements[0].value;
+    const emailValue = formElements[1].value;
+    const textAreaValue = formElements[2].value;
+    const values = [nameValue, emailValue, textAreaValue];
+    const stringifyValues = JSON.stringify(values);
+    localStorage.setItem('data', stringifyValues);
+    stringValues = localStorage.getItem('data');
+  });
 }
