@@ -3,7 +3,6 @@ const validationMessage = document.querySelector('.validation-message');
 const { email } = form.elements;
 
 const errorMessage = 'Please, kindly use lowercase letters for the email address';
-
 const showMessage = (isError, message) => {
   validationMessage.classList.remove('d-none');
   validationMessage.textContent = message;
