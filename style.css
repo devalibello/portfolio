@@ -168,6 +168,11 @@ ul {
   transition: 1s;
 }
 
+.tech {
+  height: 250px;
+  border-radius: 16px;
+}
+
 .tonic_name {
   width: 295px;
   height: 36px;
@@ -230,15 +235,24 @@ ul {
   line-height: 24px;
   margin: 0;
   padding-right: 36px;
-  margin-bottom: 3%;
+  margin-bottom: 15px;
   color: #344563;
 }
 
-.programs {
-  display: grid;
-  grid-template-columns: 70px 60px 50px;
-  margin-right: 122px;
-  margin-bottom: 3%;
+.project_languages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+
+.project_language_style {
+  background-color: #ebebff;
+  border-radius: 8px;
+  padding: 5px 10px 5px 10px;
+  font-size: 12px;
+  color: #0e25fc;
+  margin-bottom: 15px;
 }
 
 .btn {
@@ -266,12 +280,10 @@ ul {
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
-  padding-top: 2%;
-  padding-bottom: 7%;
+  padding: 3% 0% 5% 0%;
   width: 85%;
   height: 68%;
   background: #fff;
-  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
@@ -470,7 +482,7 @@ ul {
 
 .tonic {
   margin: 0;
-  margin-bottom: 3%;
+  margin-bottom: 5px;
 }
 
 .lang-flex {
@@ -506,7 +518,7 @@ ul {
   width: 100%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .main_body {
     align-items: center;
     background-image: url("img/header_dt.svg");
@@ -543,7 +555,7 @@ ul {
     flex-direction: row;
     justify-content: center;
     padding: 1%;
-    margin-bottom: 5%;
+
   }
 
   .tonic_border1 {
@@ -767,6 +779,15 @@ ul {
 
   .flex-langs {
     width: 40%;
+  }
+
+  .btn.project {
+    margin-bottom: 12px;
+  }
+  
+  .tonic_pic.tech {
+    height: 250px;
+    border-radius: 25px;
   }
 }
 
