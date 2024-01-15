@@ -958,3 +958,7 @@ body.popup-open {
 .project-image {
   border-radius: 10px;
 }
+
+.ruby-svg {
+  width: 90%;
+}
