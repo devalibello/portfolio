@@ -62,7 +62,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Forms and Validation Collaborative project] <a name="about-project"></a>
 
-
 **[Forms and Validation Collaborative project]** This project is about building the first page of a portfolio using the Figma template. It grants students the opportunity to begin to build their portfolio in preparation for the job market. The project was conducted using peer programming in a collaborative structure.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -88,9 +87,6 @@ After you're finished please remove all the comments and instructions!
 - **[The project has a pop up window to show the details of the individual projects]**
 - **[Form validation feature form the contact from to ensure correct data is sent to the server]**
 
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -111,13 +107,12 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
--a code editor installed that can run HTML and CSS files 
+-a code editor installed that can run HTML and CSS files
 -linters installed and fully functional
 
 ### Setup
 
 Clone this repository to your desired folder. Use the command: git clone https://github.com/devalibello/devalibello.github.io.git
-
 
 ### Install
 
@@ -140,14 +135,15 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 To check for CSS or SCSS errors:
+
 - With linters correctly installed,
-npx stylelint "**/*.{css,scss}"
+  npx stylelint "\*_/_.{css,scss}"
 
 - To fix CSS or SCSS linters error:
-npx stylelint "**/*.{css,scss}" --fix
+  npx stylelint "\*_/_.{css,scss}" --fix
 
 - To fix javascript linters error:
-npx eslint . --fix
+  npx eslint . --fix
 
 ### Deployment
 
@@ -172,15 +168,6 @@ Example:
 - GitHub: [@githubhandle](https://github.com/devalibello)
 - Twitter: [@twitterhandle](https://twitter.com/i_am_aalee)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-bello-imoukhuede/)
-
-👤 **Fredo st Fleur**
-- GitHub: [@githubhandle](https://github.com/fredo509)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fredo-st-fleur-0b41a122a)
-
-👤 **Dani Morillo**
-- GitHub: [@danifromecuador](https://github.com/danifromecuador)
-- Twitter: [@danifromecuador](https://twitter.com/danifromecuador)
-- LinkedIn: [danifromecuador](https://www.linkedin.com/in/danifromecuador/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -217,7 +204,6 @@ If you like this project, kindly share my github repo with your friends and foll
 I would like to thank my coding partner Fredo and my family for giving me the needed support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

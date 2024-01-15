@@ -19,50 +19,56 @@ menuLinks.forEach((element) => {
   });
 });
 
-
-const projectContainer = document.getElementById('project_container')
-const popUpContainer = document.getElementById('pop-background-id')
+const projectContainer = document.getElementById('project_container');
 const projectPopUp = document.querySelector('.trans-back');
 
 const projectDetails = [
   {
-    image: "img/kano_tech_summit.png",
-    name: "Kano Tech Summit",
-    description: "This project was about designing a TECH Global Conference website. The website was built with a responsive design approach. Hence, it has a different view for mobile and desktop users",
-    languages: ["html", "css", "JavaScript"],
-    see_live: "https://devalibello.github.io/capstone-1/",
-    source_code: "https://github.com/devalibello/capstone-1"
+    image: 'img/kano_tech_summit.png',
+    name: 'Kano Tech Summit',
+    description:
+      'This project was about designing a TECH Global Conference website. The website was built with a responsive design approach. Hence, it has a different view for mobile and desktop users',
+    languages: ['html', 'css', 'JavaScript'],
+    see_live: 'https://devalibello.github.io/capstone-1/',
+    source_code: 'https://github.com/devalibello/capstone-1',
   },
   {
-    image: "img/kano_weather_app.png",
-    name: "Kano Weather App",
-    description: "This is a webapp that can be used to display various weather conditions of Kano State - Nigeria. The app was built using React/Redux Toolkit with the aid OpenWeatehr API",
-    languages: ["html", "css", "JavaScript", "React", "Redux"],
-    see_live: "https://kano-weather-application.onrender.com/",
-    source_code: "https://github.com/devalibello/kano-weather-app"
-  }
-]
+    image: 'img/kano_weather_app.png',
+    name: 'Kano Weather App',
+    description:
+      'This is a webapp that can be used to display various weather conditions of Kano State - Nigeria. The app was built using React/Redux Toolkit with the aid OpenWeatehr API',
+    languages: ['html', 'css', 'JavaScript', 'React', 'Redux'],
+    see_live: 'https://kano-weather-application.onrender.com/',
+    source_code: 'https://github.com/devalibello/kano-weather-app',
+  },
+];
 
 const displayProject = (id) => {
   projectContainer.innerHTML += `
   <section class="tonic_border">
     <section class="tonic_project">
-      <a href="https://"><img class="tonic_pic tech" src="${projectDetails[id].image}" alt=""></a>
+      <a href="https://"><img class="tonic_pic tech" src="${
+  projectDetails[id].image
+}" alt=""></a>
     </section>
     <section class="desk-side">
       <h2 class="tonic">${projectDetails[id].name}</h2>
       <p class="description">${projectDetails[id].description}</p>
       <ul class="project_languages">
-        ${projectDetails[id].languages.map(language => `<li class="project_language_style">${language}</li>`).join('')}
+        ${projectDetails[id].languages
+    .map(
+      (language) => `<li class="project_language_style">${language}</li>`,
+    )
+    .join('')}
       </ul>
       <button class="btn project" id="${id}">See Project</button>
     </section>
   </section>
-`
-}
+`;
+};
 
-for (let i = 0; i < projectDetails.length; i +=1) {
-  displayProject(i)
+for (let i = 0; i < projectDetails.length; i += 1) {
+  displayProject(i);
 }
 
 const displayPopup = (id) => {
@@ -72,10 +78,14 @@ const displayPopup = (id) => {
 		<img class="project-image" src="${projectDetails[id].image}" alt="">
 	</div>
   <div class="div-project-description">
-		<h3 class="project-description description">${projectDetails[id].description}</h3>
+		<h3 class="project-description description">${
+  projectDetails[id].description
+}</h3>
 	</div>
   <ul class="project_languages">
-    ${projectDetails[id].languages.map(language => `<li class="project_language_style">${language}</li>`).join('')}
+    ${projectDetails[id].languages
+    .map((language) => `<li class="project_language_style">${language}</li>`)
+    .join('')}
   </ul>
   <div class="div-footer-btn">
 									<div class="footer-btns">
@@ -92,27 +102,22 @@ const displayPopup = (id) => {
 											</button>
 										</a>
 									</div>
-  `
-}
+  `;
+};
 
 const handleClick = (event) => {
   projectPopUp.style.display = 'flex';
   document.body.classList.toggle('popup-open');
-  displayPopup(event.target.id)
-}
-
+  displayPopup(event.target.id);
+};
 
 const projectButton = document.querySelectorAll('button.btn.project');
-projectButton.forEach(button => {
+projectButton.forEach((button) => {
   button.addEventListener('click', handleClick);
 });
 
-  const closePopUp = document.getElementById('close');
-  closePopUp.addEventListener('click', () => {
-    projectPopUp.style.display = 'none';
-    document.body.classList.remove('popup-open');
+const closePopUp = document.getElementById('close');
+closePopUp.addEventListener('click', () => {
+  projectPopUp.style.display = 'none';
+  document.body.classList.remove('popup-open');
 });
-
-
-
-

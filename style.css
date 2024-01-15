@@ -555,7 +555,6 @@ ul {
     flex-direction: row;
     justify-content: center;
     padding: 1%;
-
   }
 
   .tonic_border1 {
@@ -784,7 +783,7 @@ ul {
   .btn.project {
     margin-bottom: 12px;
   }
-  
+
   .tonic_pic.tech {
     height: 250px;
     border-radius: 25px;
@@ -798,7 +797,6 @@ ul {
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   display: none;
@@ -810,6 +808,7 @@ ul {
 .pop-background {
   background-color: white;
   width: 70%;
+
   /* height: 80vh; */
   padding: 20px;
   border-radius: 16px;
