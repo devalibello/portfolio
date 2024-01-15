@@ -29,13 +29,17 @@ const projectDetails = [
     image: "img/kano_tech_summit.png",
     name: "Kano Tech Summit",
     description: "This project was about designing a TECH Global Conference website. The website was built with a responsive design approach. Hence, it has a different view for mobile and desktop users",
-    languages: ["html", "css", "JavaScript"]
+    languages: ["html", "css", "JavaScript"],
+    see_live: "https://devalibello.github.io/capstone-1/",
+    source_code: "https://github.com/devalibello/capstone-1"
   },
   {
     image: "img/kano_weather_app.png",
     name: "Kano Weather App",
     description: "This is a webapp that can be used to display various weather conditions of Kano State - Nigeria. The app was built using React/Redux Toolkit with the aid OpenWeatehr API",
-    languages: ["html", "css", "JavaScript", "React", "Redux"]
+    languages: ["html", "css", "JavaScript", "React", "Redux"],
+    see_live: "https://kano-weather-application.onrender.com/",
+    source_code: "https://github.com/devalibello/kano-weather-app"
   }
 ]
 
@@ -62,7 +66,7 @@ for (let i = 0; i < projectDetails.length; i +=1) {
 }
 
 const displayPopup = (id) => {
-  document.getElementById('project_content').innerHTML += `
+  document.getElementById('project_content').innerHTML = `
 	<h2 class="project-name">${projectDetails[id].name}</h2>
   <div class="div-project-image">
 		<img class="project-image" src="${projectDetails[id].image}" alt="">
@@ -73,6 +77,21 @@ const displayPopup = (id) => {
   <ul class="project_languages">
     ${projectDetails[id].languages.map(language => `<li class="project_language_style">${language}</li>`).join('')}
   </ul>
+  <div class="div-footer-btn">
+									<div class="footer-btns">
+										<a class="footer-btn" href="${projectDetails[id].see_live}">
+											<button class="footer-btn">
+												<h3 class="footer-btn-content">See Live</h3>
+												<img src="./img/footer-logo-1.svg" alt="see live logo" class="footer-btn-logo-1">
+											</button>
+										</a>
+										<a class="footer-btn" href="${projectDetails[id].source_code}">
+											<button class="footer-btn">
+												<h3 class="footer-btn-content">See Source</h3>
+												<img src="./img/footer-logo-2.svg" alt="see source logo" class="footer-btn-logo-2">
+											</button>
+										</a>
+									</div>
   `
 }
 
