@@ -792,30 +792,54 @@ ul {
 }
 
 .trans-back {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
   top: 0;
-  left: 0;
-  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
 }
 
 .pop-background {
+  background-color: white;
+  width: 70%;
+  height: 80vh;
+  padding: 20px;
+  border-radius: 16px;
+  border: 2px solid #0e25fc;
+  position: relative;
+}
+
+body.popup-open {
+  overflow: hidden;
+}
+
+#close {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 40px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+/* .pop-background {
   margin-top: 50px;
   padding-top: 2%;
   padding-bottom: 7%;
-  width: 85%;
+  margin-bottom: 7%;
+  width: 70%;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding-left: 2%;
   padding-right: 2%;
-  margin-bottom: 7%;
   mix-blend-mode: multiply;
-  height: 90vh;
-  overflow: scroll;
-}
+  height: 80vh;
+} */
 
 .div-project-name {
   display: flex;
@@ -893,10 +917,6 @@ ul {
   border: 2px solid #000;
   margin-bottom: 4%;
   border-radius: 5px;
-}
-
-.pop-remove {
-  display: none;
 }
 
 .invalid-note {

@@ -21,6 +21,9 @@ menuLinks.forEach((element) => {
 
 
 const projectContainer = document.getElementById('project_container')
+const popUpContainer = document.getElementById('pop-background-id')
+const projectPopUp = document.querySelector('.trans-back');
+
 const projectDetails = [
   {
     image: "img/kano_tech_summit.png",
@@ -48,7 +51,7 @@ const displayProject = (id) => {
       <ul class="project_languages">
         ${projectDetails[id].languages.map(language => `<li class="project_language_style">${language}</li>`).join('')}
       </ul>
-      <button class="btn project">See Project</button>
+      <button class="btn project" id="${id}">See Project</button>
     </section>
   </section>
 `
@@ -58,21 +61,39 @@ for (let i = 0; i < projectDetails.length; i +=1) {
   displayProject(i)
 }
 
+const displayPopup = (id) => {
+  document.getElementById('project_content').innerHTML += `
+	<h2 class="project-name">${projectDetails[id].name}</h2>
+  <div class="div-project-image">
+		<img class="project-image" src="${projectDetails[id].image}" alt="">
+	</div>
+  <div class="div-project-description">
+		<h3 class="project-description description">${projectDetails[id].description}</h3>
+	</div>
+  <ul class="project_languages">
+    ${projectDetails[id].languages.map(language => `<li class="project_language_style">${language}</li>`).join('')}
+  </ul>
+  `
+}
+
+const handleClick = (event) => {
+  projectPopUp.style.display = 'flex';
+  document.body.classList.toggle('popup-open');
+  displayPopup(event.target.id)
+}
+
+
+const projectButton = document.querySelectorAll('button.btn.project');
+projectButton.forEach(button => {
+  button.addEventListener('click', handleClick);
+});
+
+  const closePopUp = document.getElementById('close');
+  closePopUp.addEventListener('click', () => {
+    projectPopUp.style.display = 'none';
+    document.body.classList.remove('popup-open');
+});
 
 
 
-			// <section class="tonic_project">
-      // <a href="https://"><img class="tonic_pic tech" src="img/kano_tech_summit.png" alt=""></a>
-      // </section>
-      // <section class="desk-side">
-      //   <h2 class="tonic">Kano Tech Summit</h2>
-      //   <p class="description">This project was about designing a TECH Global Conference website.
-      //      The website was built with a responsive design approach. Hence, it has a different view 
-      //      for mobile and desktop users.</p>
-      //   <ul class="project_languages">
-      //     <li class="project_language_style">HTML</li>
-      //     <li class="project_language_style">CSS</li>
-      //     <li class="project_language_style">JavaScript</li>
-      //   </ul>
-      //   <button class="btn project">See Project</button>
-      // </section>
+
