@@ -772,8 +772,8 @@ ul {
 
   .pop-background {
     padding: 0 1%;
-    height: 90vh;
-    overflow: scroll;
+    /* height: 90vh; */
+    /* overflow: scroll; */
   }
 
   .flex-langs {
@@ -787,6 +787,25 @@ ul {
   .tonic_pic.tech {
     height: 250px;
     border-radius: 25px;
+  }
+
+  .div-project-image {
+    width: 150%;
+  }
+
+  .popup-project-section {
+    display: flex;
+    gap: 20px;
+  }
+
+  .pop-description-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-name {
+    font-size: 150%;
+    margin-bottom: 5px;
   }
 }
 
@@ -898,6 +917,7 @@ body.popup-open {
   border-radius: 8px;
   gap: 10px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .footer-btns {

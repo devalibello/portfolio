@@ -74,34 +74,43 @@ for (let i = 0; i < projectDetails.length; i += 1) {
 const displayPopup = (id) => {
   document.getElementById('project_content').innerHTML = `
 	<h2 class="project-name">${projectDetails[id].name}</h2>
-  <div class="div-project-image">
-		<img class="project-image" src="${projectDetails[id].image}" alt="">
-	</div>
-  <div class="div-project-description">
-		<h3 class="project-description description">${
-  projectDetails[id].description
-}</h3>
-	</div>
-  <ul class="project_languages">
-    ${projectDetails[id].languages
-    .map((language) => `<li class="project_language_style">${language}</li>`)
-    .join('')}
-  </ul>
-  <div class="div-footer-btn">
-									<div class="footer-btns">
-										<a class="footer-btn" href="${projectDetails[id].see_live}">
-											<button class="footer-btn">
-												<h3 class="footer-btn-content">Live</h3>
-												<img src="./img/footer-logo-1.svg" alt="see live logo" class="footer-btn-logo-1">
-											</button>
-										</a>
-										<a class="footer-btn" href="${projectDetails[id].source_code}">
-											<button class="footer-btn">
-												<h3 class="footer-btn-content">Code</h3>
-												<img src="./img/footer-logo-2.svg" alt="see source logo" class="footer-btn-logo-2">
-											</button>
-										</a>
-									</div>
+  <div class="popup-project-section">
+
+    <div class="div-project-image">
+      <img class="project-image" src="${projectDetails[id].image}" alt="">
+    </div>
+
+    <div class="pop-description-section">
+      <div class="div-project-description">
+        <h3 class="project-description description">${
+        projectDetails[id].description
+        }</h3>
+      </div>
+
+      <ul class="project_languages">
+        ${projectDetails[id].languages
+        .map((language) => `<li class="project_language_style">${language}</li>`)
+        .join('')}
+      </ul>
+
+      <div class="div-footer-btn">
+      <div class="footer-btns">
+        <a class="footer-btn" href="${projectDetails[id].see_live}">
+          <button class="footer-btn">
+            <h3 class="footer-btn-content">Live</h3>
+            <img src="./img/footer-logo-1.svg" alt="see live logo" class="footer-btn-logo-1">
+          </button>
+        </a>
+        <a class="footer-btn" href="${projectDetails[id].source_code}">
+          <div class="footer-btn">
+            <h3 class="footer-btn-content">Code</h3>
+            <img src="./img/footer-logo-2.svg" alt="see source logo" class="footer-btn-logo-2">
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
   `;
 };
 
