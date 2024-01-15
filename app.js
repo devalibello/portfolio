@@ -91,13 +91,13 @@ const displayPopup = (id) => {
 									<div class="footer-btns">
 										<a class="footer-btn" href="${projectDetails[id].see_live}">
 											<button class="footer-btn">
-												<h3 class="footer-btn-content">See Live</h3>
+												<h3 class="footer-btn-content">Live</h3>
 												<img src="./img/footer-logo-1.svg" alt="see live logo" class="footer-btn-logo-1">
 											</button>
 										</a>
 										<a class="footer-btn" href="${projectDetails[id].source_code}">
 											<button class="footer-btn">
-												<h3 class="footer-btn-content">See Source</h3>
+												<h3 class="footer-btn-content">Code</h3>
 												<img src="./img/footer-logo-2.svg" alt="see source logo" class="footer-btn-logo-2">
 											</button>
 										</a>
