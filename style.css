@@ -962,3 +962,26 @@ body.popup-open {
 .ruby-svg {
   width: 90%;
 }
+
+.fa-angle-right  {
+  transition: transform 0.5s;
+}
+
+.fa-angle-right:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.turn-arrow {
+  transform: rotate(90deg);
+}
+
+.lang-grid {
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.5s;
+}
+
+.open-languages {
+  max-height: 400px;
+}

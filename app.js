@@ -130,3 +130,8 @@ closePopUp.addEventListener('click', () => {
   projectPopUp.style.display = 'none';
   document.body.classList.remove('popup-open');
 });
+
+const toggleArrow = () => {
+  document.querySelector('.lang-grid').classList.toggle('open-languages')
+  document.querySelector('.fa-angle-right').classList.toggle('turn-arrow')
+}
