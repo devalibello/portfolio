@@ -255,6 +255,14 @@ ul {
   margin-bottom: 15px;
 }
 
+.skills-style {
+  background-color: #ebebff;
+  color: #0e25fc;
+  border-radius: 8px;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 20px;
+}
+
 .btn {
   background: none;
   border: 2px solid #7f8cff;
@@ -348,10 +356,10 @@ ul {
   flex-direction: column;
 }
 
-.lang_info_head li {
+/* .lang_info_head li {
   margin: 0;
   padding: 0;
-}
+} */
 
 .lang_arrow {
   display: flex;
@@ -714,11 +722,17 @@ ul {
     display: none;
   }
 
-  .lang-flex {
+  /* .lang-flex {
     display: grid;
     grid-template-columns: 50px;
     width: 15%;
     margin-left: 4%;
+  } */
+
+  .lang-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .lang-grid {
@@ -807,6 +821,19 @@ ul {
     font-size: 150%;
     margin-bottom: 5px;
   }
+
+  .lang-grid-framework,
+  .lang-grid-language {
+    display: flex;
+  }
+  .wrt-react {
+    padding-right: 15px;
+  }
+
+  .wrt-redux {
+    padding-right: 30px;
+  }
+
 }
 
 .trans-back {
@@ -976,12 +1003,36 @@ body.popup-open {
   transform: rotate(90deg);
 }
 
-.lang-grid {
+.lang-grid-language {
   overflow: hidden;
   max-height: 0px;
   transition: max-height 0.5s;
 }
 
-.open-languages {
+.lang-grid-framework {
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.5s;
+}
+
+.lang-grid-skills {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.open {
   max-height: 400px;
+}
+
+.redux-svg {
+  width: 70%;
+}
+
+.react-svg {
+  width: 80%;
+}
+
+.rails-svg {
+  width: 95%;
 }

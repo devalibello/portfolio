@@ -21,7 +21,7 @@ menuLinks.forEach((element) => {
 
 const projectContainer = document.getElementById('project_container');
 const projectPopUp = document.querySelector('.trans-back');
-
+const skills = ['Git', 'Gitflow','PostgreSQL', 'Object-Oriented Programming', 'Pair-Programming', 'Data Structures', 'Algorithms', 'Problem Management', 'DevTools','Test-Driven Development', 'Leadership']
 const projectDetails = [
   {
     image: 'img/kano_tech_summit.png',
@@ -131,7 +131,20 @@ closePopUp.addEventListener('click', () => {
   document.body.classList.remove('popup-open');
 });
 
-const toggleArrow = () => {
-  document.querySelector('.lang-grid').classList.toggle('open-languages')
-  document.querySelector('.fa-angle-right').classList.toggle('turn-arrow')
+const toggleArrow = (type) => {
+  document.querySelector(`.lang-grid-${type}`).classList.toggle('open')
+  document.querySelector(`.fa-angle-right-${type}`).classList.toggle('turn-arrow')
 }
+
+const postSkills = document.getElementById('skills-container')
+const displaySkills = () => {
+postSkills.innerHTML = `
+<ul class="project_languages">
+  ${skills.map((skill) => `<li class="skills-style">${skill}</li>`)
+  .join('')}
+</ul>
+`
+}
+displaySkills();
+
+

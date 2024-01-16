@@ -91,8 +91,8 @@
 				<section class="languages">
 					<ul class="lang_info_head">
 						<li class="lang_info"><span class="lang_arrow" >languages<i
-									class="fa-solid fa-angle-right" onclick="toggleArrow()"></span></i>
-							<div class="lang-grid open">
+									class="fa-solid fa-angle-right fa-angle-right-language" onclick="toggleArrow('language')"></span></i>
+							<div class="lang-grid-language">
 								<span class="lang-flex">
 									<div class="cycle_js"><a href="#"><img class="ruby-svg" src="img/ruby.png"
 												alt=""></a></div>
@@ -101,26 +101,43 @@
 								<span class="lang-flex">
 									<div class="cycle_js"><a href="#"><img class="js-svg" src="img/javascrip.svg"
 												alt=""></a></div>
-									<div class="wrt">JavaScript</div>
+									<div class="wrt wrt-javascript">JavaScript</div>
 								</span>
 								<span class="lang-flex">
 									<div class="cycle_html"><a href="#"><img src="img/html.svg" alt=""></a></div>
-									<div class="wrt">HTML</div>
+									<div class="wrt wrt-html">HTML</div>
 								</span>
 								<span class="lang-flex">
 									<div class="cycle_css"><a href="#"><img src="img/css.svg" alt=""></a></div>
-									<div class="wrt">CSS</div>
+									<div class="wrt wrt-css">CSS</div>
 								</span>
 							</div>
 						</li>
 						<span class="sep sep1"><i class="fa-thin fa-horizontal-rule"></i></span>
-
 						<li class="lang_info"><span class="lang_arrow">Frameworks<i
-									class="fa-solid fa-angle-right"></i></span>
+									class="fa-solid fa-angle-right fa-angle-right-framework" onclick="toggleArrow('framework')"></i></span>
+							<div class="lang-grid-framework">
+								<span class="lang-flex">
+									<div class="cycle_js"><a href="#"><img class="react-svg" src="img/react.png"
+												alt=""></a></div>
+									<div class="wrt wrt-react">React</div>
+								</span>
+								<span class="lang-flex">
+									<div class="cycle_js"><a href="#"><img class="redux-svg" src="img/redux.png"
+												alt=""></a></div>
+									<div class="wrt wrt-redux">Redux</div>
+								</span>
+								<span class="lang-flex">
+									<div class="cycle_html"><a href="#"><img class="rails-svg" src="img/rails.png" alt=""></a></div>
+									<div class="wrt">Rails</div>
+								</span>
+							</div>
 						</li>
 						<span class="sep sep1"><i class="fa-thin fa-horizontal-rule"></i></span>
 						<li class="lang_info"><span class="lang_arrow">Skills<i
-									class="fa-solid fa-angle-right"></i></span></li>
+									class="fa-solid fa-angle-right fa-angle-right-skills" onclick="toggleArrow('skills')"></i></span></li>
+									<div id="skills-container" class="lang-grid-skills">
+									</div>
 						<span class="sep"><i class="fa-thin fa-horizontal-rule"></i></span>
 					</ul>
 				</section>
