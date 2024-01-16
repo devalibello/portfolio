@@ -992,6 +992,7 @@ body.popup-open {
 
 .fa-angle-right  {
   transition: transform 0.5s;
+  color: black;
 }
 
 .fa-angle-right:hover {
@@ -1001,6 +1002,7 @@ body.popup-open {
 
 .turn-arrow {
   transform: rotate(90deg);
+  color: red;
 }
 
 .lang-grid-language {
