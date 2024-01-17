@@ -70,7 +70,7 @@ const projectDetails = [
     image: "img/calculator.png",
     name: "Math Magician",
     description:
-      "Discover the power of simplicity with our Math Magician web app - the perfect tool for all your basic calculations! The app was built using React SPA, API Ninja and Jest test cases.",
+      "Discover the power of simplicity with our Math Magician web app The app was built using React SPA, API Ninja and Jest test cases.",
     languages: ["HTML", "CSS", "JavaScript", "React"],
     see_live: "https://math-magician-g3js.onrender.com/",
     source_code: "https://github.com/devalibello/math-magician",
