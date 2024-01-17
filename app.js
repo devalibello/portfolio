@@ -5,11 +5,15 @@ const menuLinks = document.querySelectorAll(".side-menu");
 menu.addEventListener("click", () => {
   const showMenu = document.querySelector(".menu-background");
   showMenu.classList.toggle("active");
+  document.body.classList.toggle("popup-open");
+
 });
 
 menuClose.addEventListener("click", () => {
   const showMenu = document.querySelector(".menu-background");
   showMenu.classList.remove("active");
+  document.body.classList.remove("popup-open");
+
 });
 
 menuLinks.forEach((element) => {
