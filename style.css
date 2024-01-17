@@ -4,6 +4,7 @@
   font-family: poppins, sans-serif;
   color: #172b4d;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .container {
@@ -699,6 +700,11 @@ ul {
     padding-top: 2%;
     margin-right: 20px;
     color: #344563;
+  }
+
+  .not:hover {
+    font-weight: 1000;
+    color: #0e25fc;
   }
 
   .notification {
