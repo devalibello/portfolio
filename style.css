@@ -1017,6 +1017,10 @@ body.popup-open {
   transition: max-height 0.5s;
 }
 
+.skills-container {
+  margin-bottom: 10px;
+}
+
 .lang-grid-skills {
   max-height: 0px;
   overflow: hidden;
@@ -1024,7 +1028,7 @@ body.popup-open {
 }
 
 .open {
-  max-height: 400px;
+  max-height: 1000px;
 }
 
 .redux-svg {
