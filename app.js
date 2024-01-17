@@ -36,11 +36,27 @@ const projectDetails = [
     image: 'img/kano_weather_app.png',
     name: 'Kano Weather App',
     description:
-      'This is a webapp that can be used to display various weather conditions of Kano State - Nigeria. The app was built using React/Redux Toolkit with the aid OpenWeatehr API',
+      'This is a webapp that can be used to display various weather conditions of Kano State - Nigeria. The app was built using React/Redux Toolkit with the aid OpenWeatehr API.',
     languages: ['html', 'css', 'JavaScript', 'React', 'Redux'],
     see_live: 'https://kano-weather-application.onrender.com/',
     source_code: 'https://github.com/devalibello/kano-weather-app',
   },
+  {
+    image: 'img/calculator.png',
+    name: 'Math Magician',
+    description: 'Discover the power of simplicity with our Math Magician web app - the perfect tool for all your basic calculations! The app was built using React SPA, API Ninja and Jest test cases.',
+    languages: ['html', 'css', 'JavaScript', 'React'],
+    see_live: 'https://math-magician-g3js.onrender.com/',
+    source_code: 'https://github.com/devalibello/math-magician'
+  },
+  {
+    image: 'img/budget.png',
+    name: 'Budget App',
+    description: 'This app allows effortless bill management, expense tracking, and financial organization. Users can create categories, add payments with amounts, and gain insights into spending.',
+    languages: ['Ruby on Rails', 'PostgreSQL'],
+    see_live: 'https://budget-app-ali.onrender.com',
+    source_code: 'https://github.com/devalibello/budget-app'
+  }
 ];
 
 const displayProject = (id) => {
