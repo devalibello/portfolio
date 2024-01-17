@@ -28,7 +28,7 @@ const projectDetails = [
     name: 'Kano Tech Summit',
     description:
       'This project was about designing a TECH Global Conference website. The website was built with a responsive design approach. Hence, it has a different view for mobile and desktop users',
-    languages: ['html', 'css', 'JavaScript'],
+    languages: ['HTML', 'CSS', 'JavaScript'],
     see_live: 'https://devalibello.github.io/capstone-1/',
     source_code: 'https://github.com/devalibello/capstone-1',
   },
@@ -37,7 +37,7 @@ const projectDetails = [
     name: 'Kano Weather App',
     description:
       'This is a webapp that can be used to display various weather conditions of Kano State - Nigeria. The app was built using React/Redux Toolkit with the aid OpenWeatehr API.',
-    languages: ['html', 'css', 'JavaScript', 'React', 'Redux'],
+    languages: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
     see_live: 'https://kano-weather-application.onrender.com/',
     source_code: 'https://github.com/devalibello/kano-weather-app',
   },
@@ -45,7 +45,7 @@ const projectDetails = [
     image: 'img/calculator.png',
     name: 'Math Magician',
     description: 'Discover the power of simplicity with our Math Magician web app - the perfect tool for all your basic calculations! The app was built using React SPA, API Ninja and Jest test cases.',
-    languages: ['html', 'css', 'JavaScript', 'React'],
+    languages: ['HTML', 'CSS', 'JavaScript', 'React'],
     see_live: 'https://math-magician-g3js.onrender.com/',
     source_code: 'https://github.com/devalibello/math-magician'
   },
@@ -56,6 +56,15 @@ const projectDetails = [
     languages: ['Ruby on Rails', 'PostgreSQL'],
     see_live: 'https://budget-app-ali.onrender.com',
     source_code: 'https://github.com/devalibello/budget-app'
+  },
+  {
+  image: 'img/bookstore.png',
+  name: 'Digital Library',
+  description:
+    'This is a digital library that enables users to add books and keep track of their reading progress. Users also have the option to remove books from the list. The app was built using Bookstore API.',
+  languages: ['HTML', 'CSS', 'JavaScript','React', 'Redux'],
+  see_live: 'https://bookstore-bfiu.onrender.com',
+  source_code: 'https://github.com/devalibello/bookstore',
   }
 ];
 
