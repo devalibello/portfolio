@@ -400,7 +400,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -200px;
+  margin-top: -310px;
 }
 
 .first-section {
@@ -834,6 +834,10 @@ ul {
     padding-right: 30px;
   }
 
+  .fa-angle-right:hover {
+  color: red;
+}
+
 }
 
 .trans-back {
@@ -993,10 +997,6 @@ body.popup-open {
 .fa-angle-right  {
   transition: transform 0.5s;
   color: black;
-}
-
-.fa-angle-right:hover {
-  color: red;
   cursor: pointer;
 }
 
@@ -1015,10 +1015,6 @@ body.popup-open {
   overflow: hidden;
   max-height: 0px;
   transition: max-height 0.5s;
-}
-
-.skills-container {
-  margin-bottom: 10px;
 }
 
 .lang-grid-skills {
