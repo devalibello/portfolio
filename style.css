@@ -359,6 +359,7 @@ ul {
   justify-content: space-between;
   margin-bottom: 16px;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .prog_lang {
@@ -784,7 +785,9 @@ ul {
 
   .pop-background {
     padding: 0 1%;
+
     /* height: 90vh; */
+
     /* overflow: scroll; */
   }
 
@@ -824,6 +827,7 @@ ul {
   .lang-grid-language {
     display: flex;
   }
+
   .wrt-react {
     padding-right: 15px;
   }
@@ -840,7 +844,6 @@ ul {
   /* .fa-angle-right:hover {
   color: red;
 } */
-
 }
 
 .trans-back {
@@ -980,7 +983,7 @@ body.popup-open {
   width: 90%;
 }
 
-.fa-angle-right  {
+.fa-angle-right {
   transition: transform 0.5s;
   color: black;
   cursor: pointer;
@@ -993,18 +996,18 @@ body.popup-open {
 
 .lang-grid-language {
   overflow: hidden;
-  max-height: 0px;
+  max-height: 0;
   transition: max-height 0.5s;
 }
 
 .lang-grid-framework {
   overflow: hidden;
-  max-height: 0px;
+  max-height: 0;
   transition: max-height 0.5s;
 }
 
 .lang-grid-skills {
-  max-height: 0px;
+  max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s;
 }
