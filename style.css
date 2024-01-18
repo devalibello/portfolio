@@ -21,11 +21,6 @@
   width: 97%;
   transition: left 0.5s;
   background-color: rgba(96, 112, 255, 0.95);
-
-  /* backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  mix-blend-mode: multiply;
-  z-index: 3; */
 }
 
 .menu-background.active {
@@ -358,11 +353,6 @@ ul {
   display: flex;
   flex-direction: column;
 }
-
-/* .lang_info_head li {
-  margin: 0;
-  padding: 0;
-} */
 
 .lang_arrow {
   display: flex;
@@ -807,7 +797,7 @@ ul {
   }
 
   .tonic_pic.tech {
-    height: 250px;
+    /* height: 250px; */
     border-radius: 25px;
   }
 
@@ -842,9 +832,14 @@ ul {
     padding-right: 30px;
   }
 
-  .fa-angle-right:hover {
+  .lang_arrow:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  /* .fa-angle-right:hover {
   color: red;
-}
+} */
 
 }
 
@@ -866,8 +861,6 @@ ul {
 .pop-background {
   background-color: white;
   width: 70%;
-
-  /* height: 80vh; */
   padding: 20px;
   border-radius: 16px;
   position: relative;
@@ -886,21 +879,6 @@ body.popup-open {
   cursor: pointer;
   color: #0e25fc;
 }
-
-/* .pop-background {
-  margin-top: 50px;
-  padding-top: 2%;
-  padding-bottom: 7%;
-  margin-bottom: 7%;
-  width: 70%;
-  background-color: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  padding-left: 2%;
-  padding-right: 2%;
-  mix-blend-mode: multiply;
-  height: 80vh;
-} */
 
 .div-project-name {
   display: flex;

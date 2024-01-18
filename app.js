@@ -83,14 +83,6 @@ const projectDetails = [
     languages: ["Ruby on Rails", "PostgreSQL"],
     see_live: "https://budget-app-ali.onrender.com",
     source_code: "https://github.com/devalibello/budget-app",
-  },
-  {
-    image: "img/leaderboard.png",
-    name: "LeaderBoard",
-    description: "This is a leaderboard app which can be used to track numerical ratings or performance of users. The UI interacts with a database using API to store and retrieve user ratings or performance",
-    languages: ["HTML", "CSS", "JavaScript"],
-    see_live: "https://devalibello.github.io/leaderboard/dist/",
-    source_code: "https://github.com/devalibello/leaderboard",
   }
 ];
 
@@ -161,7 +153,6 @@ const displayPopup = (id) => {
           </div>
         </a>
       </div>
-
     </div>
   </div>
   `;
