@@ -264,6 +264,8 @@ ul {
   border-radius: 8px;
   padding: 5px 10px 5px 10px;
   margin-bottom: 20px;
+  font-weight: normal;
+  font-size:medium;
 }
 
 .btn {
