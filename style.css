@@ -273,11 +273,6 @@ ul {
   width: 120px;
 }
 
-.btn:hover {
-  color: white;
-  background-color: #7f8cff;
-}
-
 .btn:active {
   color: white;
   background-color: #0e25fc;
@@ -846,6 +841,11 @@ ul {
   cursor: pointer;
 }
 
+.btn:hover {
+  color: white;
+  background-color: #7f8cff;
+}
+
 }
 
 .trans-back {
@@ -881,7 +881,6 @@ body.popup-open {
   right: 15px;
   font-size: 40px;
   transform: rotate(45deg);
-  cursor: pointer;
   color: #0e25fc;
 }
 
@@ -1029,6 +1028,6 @@ body.popup-open {
   width: 95%;
 }
 
-.social-media {
-  cursor: none;
+.resume-anchor {
+  width: auto;
 }
