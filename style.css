@@ -842,6 +842,10 @@ ul {
   background-color: #7f8cff;
 }
 
+#close {
+  cursor: pointer;
+}
+
 }
 
 .trans-back {
