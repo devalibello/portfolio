@@ -842,6 +842,10 @@ ul {
   cursor: pointer;
 }
 
+.social-media {
+  cursor: pointer;
+}
+
 }
 
 .trans-back {
@@ -880,21 +884,6 @@ body.popup-open {
   cursor: pointer;
   color: #0e25fc;
 }
-
-/* .pop-background {
-  margin-top: 50px;
-  padding-top: 2%;
-  padding-bottom: 7%;
-  margin-bottom: 7%;
-  width: 70%;
-  background-color: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  padding-left: 2%;
-  padding-right: 2%;
-  mix-blend-mode: multiply;
-  height: 80vh;
-} */
 
 .div-project-name {
   display: flex;
@@ -1038,4 +1027,8 @@ body.popup-open {
 
 .rails-svg {
   width: 95%;
+}
+
+.social-media {
+  cursor: none;
 }
