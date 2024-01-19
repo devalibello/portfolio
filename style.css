@@ -344,6 +344,7 @@ ul {
 
 .fa-solid {
   margin-right: 16px;
+  cursor: pointer;
 }
 
 .lang_info {
@@ -730,13 +731,6 @@ ul {
     display: none;
   }
 
-  /* .lang-flex {
-    display: grid;
-    grid-template-columns: 50px;
-    width: 15%;
-    margin-left: 4%;
-  } */
-
   .lang-flex {
     display: flex;
     flex-direction: column;
@@ -794,8 +788,6 @@ ul {
 
   .pop-background {
     padding: 0 1%;
-    /* height: 90vh; */
-    /* overflow: scroll; */
   }
 
   .flex-langs {
@@ -844,6 +836,10 @@ ul {
 
   .fa-angle-right:hover {
   color: red;
+}
+
+.project-image-pop {
+  width: 95%;
 }
 
 }
