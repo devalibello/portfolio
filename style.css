@@ -837,10 +837,6 @@ ul {
   cursor: pointer;
 }
 
-.social-media {
-  cursor: pointer;
-}
-
 .btn:hover {
   color: white;
   background-color: #7f8cff;
@@ -1029,5 +1025,6 @@ body.popup-open {
 }
 
 .resume-anchor {
-  width: auto;
+  width:fit-content;
 }
+
