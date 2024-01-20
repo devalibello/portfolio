@@ -1,20 +1,22 @@
+
 const menu = document.querySelector("#menu");
 const menuClose = document.querySelector(".fa-xmark");
 const menuLinks = document.querySelectorAll(".side-menu");
 
 menu.addEventListener("click", () => {
-  const showMenu = document.querySelector(".menu-background");
+  const showMenu = document.getElementById("menu-background");
   showMenu.classList.toggle("active");
+  menu.classList.toggle("active");
   document.body.classList.toggle("popup-open");
 
 });
 
-menuClose.addEventListener("click", () => {
-  const showMenu = document.querySelector(".menu-background");
-  showMenu.classList.remove("active");
-  document.body.classList.remove("popup-open");
+// menuClose.addEventListener("click", () => {
+//   const showMenu = document.querySelector(".menu-background");
+//   showMenu.classList.remove("active");
+//   document.body.classList.remove("popup-open");
 
-});
+// });
 
 menuLinks.forEach((element) => {
   element.addEventListener("click", () => {
@@ -111,6 +113,7 @@ const displayProject = (id) => {
 };
 
 for (let i = 0; i < projectDetails.length; i += 1) {
+  console.log('object')
   displayProject(i);
 }
 
