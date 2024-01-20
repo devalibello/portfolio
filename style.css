@@ -1052,12 +1052,13 @@ body.popup-open {
   text-align: center;
   font-style: normal;
   font-weight: 900;
-  font-size: 1.8rem;
+  font-size: 1.75rem;
   letter-spacing: 0.37px;
   line-height: 40px;
   margin-bottom: 0px;
   padding-top: 0px;
   margin-top: 0px;
+  border: 2px solid red;
 }
 
 .coding-picture {
