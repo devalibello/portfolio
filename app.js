@@ -11,15 +11,10 @@ menu.addEventListener("click", () => {
 
 });
 
-// menuClose.addEventListener("click", () => {
-//   const showMenu = document.querySelector(".menu-background");
-//   showMenu.classList.remove("active");
-//   document.body.classList.remove("popup-open");
-
-// });
-
 menuLinks.forEach((element) => {
   element.addEventListener("click", () => {
+    menu.classList.toggle("active");
+    document.body.classList.toggle("popup-open");
     const showMenu = document.querySelector(".menu-background");
     showMenu.classList.remove("active");
   });
@@ -118,10 +113,13 @@ for (let i = 0; i < projectDetails.length; i += 1) {
 }
 
 const displayPopup = (id) => {
+  document.getElementById('menu').
+  classList.toggle('hide-navbar')
+  document.getElementById('mobile-view').
+  classList.toggle('hide-navbar')
   document.getElementById("project_content").innerHTML = `
 	<h2 class="project-name">${projectDetails[id].name}</h2>
   <div class="popup-project-section">
-
     <div class="div-project-image project-image-pop">
       <img class="project-image" src="${projectDetails[id].image}" alt="">
     </div>
@@ -156,7 +154,6 @@ const displayPopup = (id) => {
           </div>
         </a>
       </div>
-
     </div>
   </div>
   `;
@@ -175,6 +172,10 @@ projectButton.forEach((button) => {
 
 const closePopUp = document.getElementById("close");
 closePopUp.addEventListener("click", () => {
+  document.getElementById('menu').
+  classList.toggle('hide-navbar')
+  document.getElementById('mobile-view').
+  classList.toggle('hide-navbar')
   projectPopUp.style.display = "none";
   document.body.classList.remove("popup-open");
 });

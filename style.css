@@ -5,7 +5,7 @@
   color: #172b4d;
   list-style-type: none;
   text-decoration: none;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   margin: 0px;
   padding: 0px;
 }
@@ -63,7 +63,6 @@
 }
 
 .logo {
-  display: none;
   position: fixed;
   top: -5px;
   left: 0px;
@@ -72,8 +71,6 @@
   margin: 0;
   padding-top: 8px;
   padding-left: 2%;
-  transition-property: transform;
-  transition-duration: 1s;
   z-index: 102;
 }
 
@@ -92,10 +89,6 @@
   justify-content: space-between;
   background-color: whitesmoke;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
-}
-
-.flex-logo {
-  flex: 1;
 }
 
 .body2 {
@@ -541,10 +534,11 @@ ul {
 
 .pop-background {
   background-color: white;
-  width: 70%;
-  padding: 20px;
+  width: 85%;
+  padding: 40px 20px 0px 20px;
   border-radius: 16px;
   position: relative;
+  overflow: scroll;
 }
 
 body.popup-open {
@@ -567,7 +561,7 @@ body.popup-open {
 }
 
 .project-name {
-  margin-left: 0;
+  margin-bottom: 10px;
 }
 
 .project-langs {
@@ -796,13 +790,6 @@ body.popup-open {
   padding-right: 3px;
 }
 
-/* .cross {
-  position: absolute;
-  bottom:50px;
-  left: 70px;
-  width: 6%;
-} */
-
 .cross {
   position: absolute;
   bottom: 50px;
@@ -830,7 +817,17 @@ body.popup-open {
   display: none;
 }
 
+body {
+  background-color: #e5e5e5;
+}
 
+.pop-description-section {
+  margin-top: 5px;
+}
+
+.hide-navbar {
+  display: none;
+}
 
 
 @media screen and (min-width: 470px) {
@@ -1077,11 +1074,6 @@ body.popup-open {
     color: #0e25fc;
   }
 
-  .logo {
-    width: 70px;
-    top:-22px;
-  }
-
   .btn-sub {
     width: 100%;
     display: flex;
@@ -1122,8 +1114,7 @@ body.popup-open {
 
   .html:hover,
   .css:hover,
-  .javascript:hover,
-  .logo:hover {
+  .javascript:hover {
     transform: scale(1.2, 1.2);
   }
 
