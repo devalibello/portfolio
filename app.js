@@ -58,7 +58,7 @@ const projectDetails = [
     image: "img/kano_weather_app.png",
     name: "Kano Weather App",
     description:
-      "This is a webapp that can be used to display various weather conditions of Kano State - Nigeria. The app was built using React/Redux Toolkit with the aid OpenWeatehr API.",
+      "This is a webapp that can be used to display various weather conditions of Kano State - Nigeria. The app was built using OpenWeatehr API.",
     languages: ["HTML", "CSS", "JavaScript", "React", "Redux"],
     see_live: "https://kano-weather-application.onrender.com/",
     source_code: "https://github.com/devalibello/kano-weather-app",
@@ -87,9 +87,9 @@ const displayProject = (id) => {
   projectContainer.innerHTML += `
   <section class="tonic_border">
     <section class="tonic_project">
-      <a href="https://"><img class="tonic_pic tech" src="${
+      <img class="tonic_pic tech" src="${
         projectDetails[id].image
-      }" alt=""></a>
+      }" alt="">
     </section>
     <section class="desk-side">
       <h2 class="tonic">${projectDetails[id].name}</h2>
@@ -108,15 +108,13 @@ const displayProject = (id) => {
 };
 
 for (let i = 0; i < projectDetails.length; i += 1) {
-  console.log('object')
   displayProject(i);
 }
 
 const displayPopup = (id) => {
-  document.getElementById('menu').
-  classList.toggle('hide-navbar')
-  document.getElementById('mobile-view').
-  classList.toggle('hide-navbar')
+  ['menu', 'mobile-view', 'logo', 'view-b'].forEach(id => 
+    document.getElementById(id).classList.toggle('hide-navbar')
+  );
   document.getElementById("project_content").innerHTML = `
 	<h2 class="project-name">${projectDetails[id].name}</h2>
   <div class="popup-project-section">
@@ -141,7 +139,7 @@ const displayPopup = (id) => {
 
       <div class="div-footer-btn">
       <div class="footer-btns">
-        <a class="footer-btn" href="${projectDetails[id].see_live}">
+        <a class="footer-btn" href="${projectDetails[id].see_live}" target='_blank'>
           <button class="footer-btn">
             <h3 class="footer-btn-content">Live</h3>
             <img src="./img/footer-logo-1.svg" alt="see live logo" class="footer-btn-logo-1">
@@ -172,10 +170,9 @@ projectButton.forEach((button) => {
 
 const closePopUp = document.getElementById("close");
 closePopUp.addEventListener("click", () => {
-  document.getElementById('menu').
-  classList.toggle('hide-navbar')
-  document.getElementById('mobile-view').
-  classList.toggle('hide-navbar')
+  ['menu', 'mobile-view', 'logo', 'view-b'].forEach(id => 
+    document.getElementById(id).classList.toggle('hide-navbar')
+  );
   projectPopUp.style.display = "none";
   document.body.classList.remove("popup-open");
 });

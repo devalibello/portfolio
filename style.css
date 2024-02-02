@@ -10,6 +10,10 @@
   padding: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   background: #e5e5e5;
   width: 100%;
@@ -66,11 +70,9 @@
   position: fixed;
   top: -5px;
   left: 0px;
-  width: 60px;
-  padding: 0;
-  margin: 0;
-  padding-top: 8px;
-  padding-left: 2%;
+  width: 140px;
+  padding-top: 18px;
+  padding-left: 10px;
   z-index: 102;
 }
 
@@ -87,7 +89,7 @@
   height: 60px;
   display: flex;
   justify-content: space-between;
-  background-color: whitesmoke;
+  background-color: #e5e5e5;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -119,7 +121,7 @@
   font-weight: 900;
   font-size: 2.5em;
   margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   letter-spacing: 0.37px;
   line-height: 60px;
 }
@@ -130,7 +132,6 @@
   font-size: 16px;
   color: #344563;
   margin: 0;
-  margin-top: 30px;
 }
 
 .connect1 {
@@ -538,7 +539,6 @@ ul {
   padding: 40px 20px 0px 20px;
   border-radius: 16px;
   position: relative;
-  overflow: scroll;
 }
 
 body.popup-open {
@@ -648,6 +648,7 @@ body.popup-open {
 
 .project-image {
   border-radius: 10px;
+  height: 220px;
 }
 
 .ruby-svg {
@@ -895,6 +896,16 @@ body {
 
 @media screen and (min-width: 768px) {
 
+  .project-image {
+    height: 250px;
+    width: 300px;
+  }
+
+  .logo {
+    padding-top: 10px;
+    width: 160px;
+  }
+
   .main_body {
     align-items: center;
     background-image: url("img/header_dt_2.svg");
@@ -999,7 +1010,6 @@ body {
 
   .body2 {
     margin-bottom: 20px;
-    /* font-size: 18px; */
   }
 
   .header3 {
@@ -1048,23 +1058,21 @@ body {
     display: none;
   }
 
-  .view-b {
-    display: block;
-  }
-
   .desktop-view {
     display: flex;
   }
 
-  .not {
+  .view-b {
     display: block;
+    margin-top: -5px;
+  }
+
+  .not {
     font-style: normal;
     font-weight: 500;
     font-size: 110%;
     line-height: 50%;
-    padding: 0 0;
-    margin: 0 0;
-    padding-top: 2%;
+    padding-top: 1%;
     margin-right: 20px;
     color: #344563;
   }
@@ -1140,7 +1148,7 @@ body {
   }
 
   .pop-background {
-    padding: 0 1%;
+    padding: 40px 20px 20px 20px;
   }
 
   .flex-langs {
@@ -1156,10 +1164,6 @@ body {
     border-radius: 25px;
   }
 
-  .div-project-image {
-    width: 150%;
-  }
-
   .popup-project-section {
     display: flex;
     gap: 20px;
@@ -1171,7 +1175,7 @@ body {
   }
 
   .project-name {
-    font-size: 150%;
+    font-size: 160%;
     margin-bottom: 5px;
   }
 
@@ -1193,10 +1197,6 @@ body {
 
   .fa-angle-right:hover {
   color: red;
-}
-
-.project-image-pop {
-  width: 95%;
 }
 
 .lang_arrow:hover {
@@ -1245,11 +1245,24 @@ body {
   top: 20px;
   right: 0px;
 }
+
+.hide-navbar {
+  display: none;
+}
 }
 
 @media screen and (min-width: 1024px){
   #coding {
     width: 15%;
+  }
+
+  .div-project-image {
+    width: 100%;
+  }
+
+  .project-image {
+    height: 250px;
+    width: 400px;
   }
   
 }
