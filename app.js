@@ -145,7 +145,7 @@ const displayPopup = (id) => {
             <img src="./img/footer-logo-1.svg" alt="see live logo" class="footer-btn-logo-1">
           </button>
         </a>
-        <a class="footer-btn" href="${projectDetails[id].source_code}">
+        <a class="footer-btn" href="${projectDetails[id].source_code}" target="_blank" rel="noopener">
           <div class="footer-btn">
             <h3 class="footer-btn-content">Code</h3>
             <img src="./img/footer-logo-2.svg" alt="see source logo" class="footer-btn-logo-2">
