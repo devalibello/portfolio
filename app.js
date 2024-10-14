@@ -37,13 +37,13 @@ const skills = [
 ];
 const projectDetails = [
   {
-    image: "img/bookstore.png",
-    name: "Digital Library",
+    image: "img/restaurant.png",
+    name: "Restaurant",
     description:
-      "This is a digital library that enables users to remove or add books while keeping track of their reading progress. The app was built using Bookstore API.",
-    languages: ["HTML", "CSS", "JavaScript", "React", "Redux"],
-    see_live: "https://bookstore-bfiu.onrender.com",
-    source_code: "https://github.com/devalibello/bookstore",
+      "This website was built for a restaurant. The site shows the various services offered by the restaurant and includes customer reviews.",
+    languages: ["HTML", "CSS", "JavaScript", "React", "GSAP"],
+    see_live: "https://tasty-food-lwkj.onrender.com/",
+    source_code: "https://github.com/devalibello/tasty-food",
   },
   {
     image: "img/kano_tech_summit.png",
@@ -71,15 +71,6 @@ const projectDetails = [
     languages: ["HTML", "CSS", "JavaScript", "React"],
     see_live: "https://math-magician-g3js.onrender.com/",
     source_code: "https://github.com/devalibello/math-magician",
-  },
-  {
-    image: "img/budget.png",
-    name: "Budget App",
-    description:
-      "This app allows effortless bill management, expense tracking, and financial organization. Users can create categories, add payments with amounts, and gain insights into spending.",
-    languages: ["Ruby on Rails", "PostgreSQL"],
-    see_live: "https://budget-app-ali.onrender.com",
-    source_code: "https://github.com/devalibello/budget-app",
   }
 ];
 
